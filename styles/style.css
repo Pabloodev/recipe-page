@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#receita {
+    width: 700px;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+#titulo-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+}
+
+#titulo-foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+}
+
+#titulo-foto img {
+    width: 600px;
+    border-radius: 10px;
+}
+
+#titulo-texto h1 {
+    color: hsl(24, 5%, 18%);
+    margin-top: 30px;
+    font-family: Young Serif;
+    font-weight: 400;
+}
+
+#titulo-texto p {
+    margin-top: 15px;
+    font-family: Outfit;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+    text-align: start;
+    margin-bottom: 30px;
+}
+
+#preparacao {
+    background-color: hsl(350, 60%, 98%);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+#preparacao h1 {
+    color: hsl(332, 51%, 32%);
+    font-size: 20px;
+    font-family: Outfit;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#preparacao ul li {
+    font-family: Outfit;
+    padding: 7px;
+    list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 10 10"><circle fill="hsl(332, 51%, 32%)" cx="7" cy="7" r="2"/></svg>');
+    margin-left: 25px;
+    color: hsl(15, 4%, 22%);
+    font-weight: 500;
+}
+
+#ingredientes h1 {
+    color: hsl(14, 43%, 42%);
+    font-family: Young serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+#ingredientes ul li {
+    font-family: Outfit;
+    padding: 7px;
+    list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 10 10"><circle fill="hsl(14, 43%, 42%)" cx="7" cy="7" r="2"/></svg>');
+    margin-left: 25px;
+    color: hsl(15, 4%, 22%);
+    font-weight: 500;
+}
+
