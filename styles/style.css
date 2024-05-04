@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
+
+hr {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    opacity: 0.3;
+}
+
 body {
     background-color: hsl(30, 54%, 90%);
     display: flex;
@@ -14,6 +26,7 @@ body {
     background-color: white;
     border-radius: 20px;
     padding: 40px;
+    margin-bottom: 100px;
 }
 
 #titulo-texto {
@@ -31,7 +44,7 @@ body {
 }
 
 #titulo-foto img {
-    width: 600px;
+    width: 650px;
     border-radius: 10px;
 }
 
@@ -72,7 +85,7 @@ body {
     padding: 7px;
     list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 10 10"><circle fill="hsl(332, 51%, 32%)" cx="7" cy="7" r="2"/></svg>');
     margin-left: 25px;
-    color: hsl(15, 4%, 22%);
+    color: hsl(20, 6%, 31%);
     font-weight: 500;
 }
 
@@ -89,7 +102,72 @@ body {
     padding: 7px;
     list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 10 10"><circle fill="hsl(14, 43%, 42%)" cx="7" cy="7" r="2"/></svg>');
     margin-left: 25px;
-    color: hsl(15, 4%, 22%);
+    color: hsl(20, 6%, 31%);
     font-weight: 500;
 }
 
+#instrucoes h1 {
+    color: hsl(14, 43%, 42%);
+    font-family: Young serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+#instrucoes ol li {
+    color: hsl(14, 43%, 42%);
+    font-family: Outfit;
+    padding: 7px;
+    margin-left: 25px;
+    font-weight: 500;
+}
+
+#instrucoes ol li p {
+    color: hsl(20, 6%, 31%);
+}
+
+#nutricao h1 {
+    color: hsl(14, 43%, 42%);
+    font-family: Young serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+#nutricao p {
+    color: hsl(20, 6%, 31%);
+    font-family: Outfit;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+#nutricao table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-left: 30px;
+    
+}
+
+table tr {
+    border-bottom: 1px solid rgb(224, 221, 221);
+}
+
+table th {
+    color: hsl(20, 6%, 31%);
+    font-family: Outfit;
+    font-weight: 600;
+    padding: 5px 0;
+}
+
+table td {
+    font-family: Outfit;
+    color: hsl(14, 43%, 42%);
+    font-weight: 700;
+    padding: 5px 0;
+}
+
+table tr:last-child {
+    border-bottom: none;
+}
