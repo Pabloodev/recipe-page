@@ -1,5 +1,7 @@
 # Frontend Mentor - Recipe page solution - pablodev
 
+Made by pablodev a fullstack developer in training
+
 This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 
@@ -13,8 +15,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Git hub Solution](https://github.com/Pabloodev/recipe-page)
-- Live Site URL: [Recipe Page (pablodev)](https://pabloodev.github.io/recipe-page/)
+- <p>Solution URL:<a href="https://github.com/Pabloodev/recipe-page" target="_blank"> Solution github</a></p>
+- <p>Live Site URL:<a href="https://pabloodev.github.io/recipe-page/" target="_blank"> Recipe Page Site</a></p>
 
 ## My process
 
